@@ -66,8 +66,8 @@ client.once('ready', () => {
 
         activities: [
             {
-                name: 'des animes 📺',
-                type: 3 // 0 = jouer, 1 = écouter, 2 = regarder, 3 = streaming
+                name: 'des animes 📺', // activité choisie
+                type: 0 // 0 = jouer, 1 = streamer, 2 = écouter, 3 = regarder, 4 = personnalisé
             },
         ],
         status: 'online' // dnd = ne pas déranger, online = en ligne, idle = inactif, invisible = invisible
