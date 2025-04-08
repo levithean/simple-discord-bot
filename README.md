@@ -10,9 +10,10 @@ If you want a whole configuration (customize the package).
 OR
 
 `npm init -y`
-If you don'tcare about the package.
+
+If you don't care about the package.
 
 Then, add discord.js and dotenv libraries from Node.js :
-`npm install discord.js dotenv
+`npm install discord.js dotenv`
 
 *Mark : dotenv is useful if you want your token or ids in a different file*
