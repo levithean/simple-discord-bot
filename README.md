@@ -24,6 +24,13 @@ Then, add **discord.js** and **dotenv** libraries from Node.js :
 
 *Note : dotenv is useful if you want your **token** or **ids** in a different file*
 
+
+Create **.env** file in your directory and add 2 values :
+```
+TOKEN=your-bot-token
+ID=your-bot-id
+```
+
 ## Running
 
 Run your bot with :
