@@ -1,4 +1,4 @@
-Just a simple Discord bot to train discord.js, Node.js and JavaScript.
+Just a simple Discord bot to train myself with discord.js, Node.js and JavaScript.
 
 ## Installation
 
