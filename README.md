@@ -1,1 +1,1 @@
-Just a simple Discord bot to train Node.js and JavaScript.
+Just a simple Discord bot to train discord.js, Node.js and JavaScript.
