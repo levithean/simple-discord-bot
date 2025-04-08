@@ -22,4 +22,4 @@ Then, add **discord.js** and **dotenv** libraries from Node.js :
 `npm install discord.js dotenv`
 
 
-*Mark : dotenv is useful if you want your **token** or **ids** in a different file*
+*Note : dotenv is useful if you want your **token** or **ids** in a different file*
