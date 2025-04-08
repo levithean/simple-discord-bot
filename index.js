@@ -2,7 +2,7 @@
 // récupère les var d'environnement (fichier .env)
 require('dotenv').config();
 const { Client, REST, Routes, SlashCommandBuilder, GatewayIntentBits } = require('discord.js');
-const {createEmbed} = require('./infos_serv.js');
+const {createEmbed} = require('./commands/infos_serv.js');
 
 // liste des commandes (apparaît dans le menu de commandes de Discord)
 const commands = [
@@ -66,8 +66,8 @@ client.once('ready', () => {
 
         activities: [
             {
-                name: 'des animes 📺', // activité choisie
-                type: 3 // 0 = jouer, 1 = streamer, 2 = écouter, 3 = regarder, 4 = personnalisé
+                name: "J'aime regarder des animes 📺", // activité choisie
+                type: 4 // 0 = jouer, 1 = streamer, 2 = écouter, 3 = regarder, 4 = personnalisé
             },
         ],
         status: 'online' // dnd = ne pas déranger, online = en ligne, idle = inactif, invisible = invisible
