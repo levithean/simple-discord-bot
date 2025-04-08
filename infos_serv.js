@@ -12,7 +12,7 @@ function createEmbed(server) {
             {name: 'Nombre de salons', value: `${server.channels.cache.size}`, inline: false},
             {name: 'Nombre de rôles', value: `${server.roles.cache.size}`, inline: false},
         )
-        .setTimestamp() // affiche la date et l'heure de l'envoi du message
+        // .setTimestamp() affiche la date et l'heure de l'envoi du message
         .setFooter({ text: 'Fait par levithean' }); // pied de l'embed
 
     return embed;
