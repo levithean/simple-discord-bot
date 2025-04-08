@@ -7,7 +7,7 @@ function createEmbed(server) {
         .setTitle('Informations sur le serveur') // en-tête de l'embed
         .setDescription('Quelques infos sur le serveur')
         .addFields(
-            { name: 'Nom du serveur', value: `${server.name}`, inline: false }, // false = pas de retour à la ligne | true = retour à la ligne
+            { name: 'Nom du serveur', value: `${server.name}`, inline: false }, // false = retour à la ligne | true = pas de retour à la ligne
             { name: 'Nombre de membres', value: `${server.memberCount}`, inline: false },
             {name: 'Nombre de salons', value: `${server.channels.cache.size}`, inline: false},
             {name: 'Nombre de rôles', value: `${server.roles.cache.size}`, inline: false},
