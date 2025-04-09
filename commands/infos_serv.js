@@ -5,6 +5,7 @@ function createEmbed(server) {
     const embed = new EmbedBuilder()
         .setColor(0x0099FF)
         .setTitle('Informations sur le serveur') // en-tête de l'embed
+        .setThumbnail("https://m.media-amazon.com/images/I/61K8CEhOguL.jpg")
         .addFields(
             { name: 'Nom du serveur', value: `${server.name}`, inline: false }, // false = retour à la ligne | true = pas de retour à la ligne
             { name: 'Nombre de membres', value: `${server.memberCount}`, inline: false },

@@ -11,10 +11,6 @@ const commands = [
         .setDescription("Répond avec 'pong!'"),
 
     new SlashCommandBuilder()
-        .setName('beep')
-        .setDescription("Répond avec 'boop!'"),
-
-    new SlashCommandBuilder()
         .setName('server')
         .setDescription('Renvoie des informations sur le serveur'),
 ].map(command => command.toJSON());
@@ -82,8 +78,7 @@ client.on('interactionCreate', async (interaction) => {
 
     if (commandName === 'ping') {
         await interaction.reply('Pong!');
-    } else if (commandName === 'beep') {
-        await interaction.reply('Boop!');
+        
     } else if (commandName === 'server') {
         const embed = createEmbed(interaction.guild); // paramètre serveur
         await interaction.reply({ embeds: [embed] }); // envoie l'embed
